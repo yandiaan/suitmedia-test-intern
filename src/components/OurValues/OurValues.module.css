@@ -1,0 +1,46 @@
+.ourValues {
+  padding: 150px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.values {
+  gap: 35px;
+  display: flex;
+  width: 75%;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 33%;
+}
+
+.cardValues {
+  /* background-color: #ea7c6f; */
+  position: relative;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  gap: 15px;
+  height: 100%;
+}
+.triangle {
+  height: 0px;
+  width: 0px;
+  border-top: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+}
+
+.cardValues p {
+  margin-top: 10px;
+}

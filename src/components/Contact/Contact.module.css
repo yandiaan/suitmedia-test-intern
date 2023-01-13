@@ -1,0 +1,53 @@
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  gap: 25px;
+}
+
+.contactFormGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 45%;
+}
+
+.contactForm {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  border: 2px solid #cdcdcd;
+  width: 100%;
+  outline: none;
+  padding: 10px 10px;
+}
+
+.contactForm p {
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contactFormGroup button {
+  width: 100%;
+  background: #5696c2;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #4b8fbe;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contactFormGroup button:hover {
+  background-color: #4b8fbe;
+}

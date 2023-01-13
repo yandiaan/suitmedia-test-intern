@@ -1,0 +1,18 @@
+.footer {
+  background: #333333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+.footer .socmed {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
